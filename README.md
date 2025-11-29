@@ -1,4 +1,4 @@
-
+<img width="228" height="135" alt="image" src="https://github.com/user-attachments/assets/1dd18bf2-2762-41f9-8749-9ba574b88796" />
 
 # 📸 TravelLens - Trợ Lý Du Lịch AI Việt Nam
 
@@ -127,7 +127,7 @@ Mở trình duyệt và truy cập: `http://localhost:5000`
 
 ## 📸 Demo
 
-*(Bạn có thể thêm ảnh chụp màn hình giao diện web vào đây để project trông sinh động hơn)*
+
 
 -----
 
