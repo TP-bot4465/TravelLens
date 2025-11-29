@@ -1,5 +1,3 @@
-<img width="228" height="135" alt="image" src="https://github.com/user-attachments/assets/1dd18bf2-2762-41f9-8749-9ba574b88796" />
-
 # 📸 TravelLens - Trợ Lý Du Lịch AI Việt Nam
 
    
@@ -127,11 +125,18 @@ Mở trình duyệt và truy cập: `http://localhost:5000`
 
 ## 📸 Demo
 
+<img width="1887" height="900" alt="image" src="https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77" />
+
+<img width="1264" height="650" alt="image" src="https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef" />
+
+<img width="1257" height="640" alt="image" src="https://github.com/user-attachments/assets/c3767811-f50f-4caf-b80f-e2e1f4c31412" />
+
+<img width="1882" height="883" alt="image" src="https://github.com/user-attachments/assets/157c2284-fe7a-42da-be2b-c33abfc5e6a9" />
 
 
 -----
 
-## 🤝 Đóng Góp (Contributing)
+##  Đóng Góp (Contributing)
 
 Mọi đóng góp để cải thiện dự án đều được hoan nghênh.
 
@@ -141,11 +146,6 @@ Mọi đóng góp để cải thiện dự án đều được hoan nghênh.
 4.  Push lên Branch (`git push origin feature/NewFeature`).
 5.  Tạo Pull Request.
 
------
-
-## 📝 License
-
-Dự án này được xây dựng cho mục đích học tập và nghiên cứu.
 
 -----
 
