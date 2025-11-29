@@ -128,7 +128,7 @@ Mở trình duyệt và truy cập: `http://localhost:5000`
 **Trang chủ**
 <img width="1887" height="900" alt="image" src="https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77" />
 
-### Tính năng nhận dạng
+
 **Nhận dạng món ăn**
 <img width="1264" height="650" alt="image" src="https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef" />
 
