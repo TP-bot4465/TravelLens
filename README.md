@@ -6,24 +6,24 @@
 
 -----
 
-## 🚀 Tính Năng Nổi Bật
+##  Tính Năng Nổi Bật
 
-  * **🔍 Nhận diện thông minh (Object Detection):**
+  * ** Nhận diện thông minh (Object Detection):**
       * Tích hợp 2 mô hình **YOLOv11** được huấn luyện riêng biệt.
       * Nhận diện chính xác các **món ăn đặc sản Việt Nam** (Phở, Bánh mì, Bún bò...).
       * Nhận diện các **địa điểm du lịch, di tích** nổi tiếng tại TP.HCM (Dinh Độc Lập, Chợ Bến Thành...).
-  * **🧠 Tổng hợp thông tin (AI Context):**
+  * ** Tổng hợp thông tin (AI Context):**
       * Sử dụng **Tavily Search API** để tìm kiếm thông tin mới nhất về đối tượng.
       * Sử dụng **Google Gemini 2.5 Flash** để tổng hợp và viết lời giới thiệu hấp dẫn như một hướng dẫn viên du lịch chuyên nghiệp.
-  * **📸 Đa dạng đầu vào:**
+  * ** Đa dạng đầu vào:**
       * Hỗ trợ tải ảnh từ thư viện.
       * Tích hợp Camera chụp ảnh trực tiếp trên trình duyệt.
-  * **💬 Chatbot AI:** Trợ lý ảo tích hợp sẵn để trả lời mọi câu hỏi về du lịch và ăn uống.
-  * **🗺️ Điều hướng:** Tự động liên kết với Google Maps để chỉ đường đến địa điểm nhận diện được.
+  * ** Chatbot AI:** Trợ lý ảo tích hợp sẵn để trả lời mọi câu hỏi về du lịch và ăn uống.
+  * ** Điều hướng:** Tự động liên kết với Google Maps để chỉ đường đến địa điểm nhận diện được.
 
 -----
 
-## 🛠️ Công Nghệ Sử Dụng
+##  Công Nghệ Sử Dụng
 
 ### Backend
 
@@ -42,7 +42,7 @@
 
 -----
 
-## 📂 Cấu Trúc Dự Án
+##  Cấu Trúc Dự Án
 
 ```bash
 TravelLens/
@@ -64,7 +64,7 @@ TravelLens/
 
 -----
 
-## ⚙️ Hướng Dẫn Cài Đặt
+##  Hướng Dẫn Cài Đặt
 
 Làm theo các bước sau để chạy dự án trên máy cục bộ:
 
@@ -123,7 +123,7 @@ Mở trình duyệt và truy cập: `http://localhost:5000`
 -----
 
 
-## 📸 Demo
+##  Demo
 
 **Trang chủ**
 <img width="1887" height="900" alt="image" src="https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77" />
