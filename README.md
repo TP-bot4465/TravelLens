@@ -125,12 +125,17 @@ Mở trình duyệt và truy cập: `http://localhost:5000`
 
 ## 📸 Demo
 
+### Trang chủ
 <img width="1887" height="900" alt="image" src="https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77" />
 
+### Tính năng nhận dạng
+Nhận dạng món ăn
 <img width="1264" height="650" alt="image" src="https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef" />
 
+Nhận dạng địa điểm
 <img width="1257" height="640" alt="image" src="https://github.com/user-attachments/assets/c3767811-f50f-4caf-b80f-e2e1f4c31412" />
 
+### Chatbot
 <img width="1882" height="883" alt="image" src="https://github.com/user-attachments/assets/157c2284-fe7a-42da-be2b-c33abfc5e6a9" />
 
 
