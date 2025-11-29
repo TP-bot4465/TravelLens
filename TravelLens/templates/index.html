@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>TravelLens - Trợ lý du lịch AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="brand">
+        <i class="ri-compass-3-fill brand-icon"></i>
+        <span class="brand-name">TravelLens</span>
+      </div>
+      
+      <nav class="nav-links">
+        <a href="#hero" class="active">Trang chủ</a>
+        <a href="#detect-section">Khám phá</a>
+        <a href="#" id="chat-nav">Trợ lý AI</a>
+      </nav>
+
+      <button class="btn-outline" onclick="document.getElementById('detect-section').scrollIntoView()">
+        Bắt đầu ngay
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge">Du lịch thông minh</span>
+        <h1>Khám phá Việt Nam <br>qua <span class="highlight">ống kính</span> AI</h1>
+        <p>
+          Tải lên hoặc chụp ảnh món ăn và địa điểm nổi tiếng. TravelLens sẽ cung cấp thông tin chi tiết ngay lập tức.
+        </p>
+        <div class="hero-actions">
+          <a href="#detect-section" class="btn primary-btn">
+            <i class="ri-camera-lens-line"></i> Thử ngay
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="slider-frame">
+          <div class="slider" id="hero-slider">
+            <div class="slide active"><img src="https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=1000&auto=format&fit=crop" alt="Ruộng bậc thang" /></div>
+            <div class="slide"><img src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?q=80&w=1000&auto=format&fit=crop" loading="lazy" alt="Hội An" /></div>
+            <div class="slide"><img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80&w=1000&auto=format&fit=crop" loading="lazy" alt="Phở" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="main-content container" id="detect-section">
+    <div class="section-header">
+      <h2>AI Phân Tích Hình Ảnh</h2>
+      <p>Chọn phương thức nhập ảnh</p>
+    </div>
+
+    <div class="detect-grid">
+      <section class="card upload-card">
+        <form id="upload-form" enctype="multipart/form-data">
+          <div class="switch-wrapper">
+            <label class="switch-option">
+              <input type="radio" name="choice" value="food" checked>
+              <span class="switch-box"><i class="ri-bowl-fill"></i> Món ăn</span>
+            </label>
+            <label class="switch-option">
+              <input type="radio" name="choice" value="place">
+              <span class="switch-box"><i class="ri-map-2-fill"></i> Địa điểm</span>
+            </label>
+          </div>
+
+          <div class="upload-zone" id="drop-zone">
+            <div class="upload-content" id="upload-placeholder">
+              <div class="icon-cloud"><i class="ri-upload-cloud-2-line"></i></div>
+              <h3>Tải ảnh lên</h3>
+              <p class="upload-hint">Định dạng: JPG, PNG</p>
+              
+              <div class="action-buttons">
+                <label for="image-input" class="btn secondary-btn">
+                  <i class="ri-folder-open-fill"></i> Chọn tệp
+                </label>
+                <input type="file" id="image-input" name="image" accept="image/*" hidden />
+
+                <button type="button" id="open-camera-btn" class="btn secondary-btn">
+                   <i class="ri-camera-fill"></i> Chụp ảnh
+                </button>
+              </div>
+            </div>
+
+            <div class="camera-container hidden" id="camera-container">
+                <video id="video-feed" autoplay playsinline muted></video>
+                <canvas id="canvas" class="hidden"></canvas>
+                <div class="camera-controls">
+                    <button type="button" id="snap-btn" class="btn primary-btn">
+                        <i class="ri-camera-lens-fill"></i> Chụp
+                    </button>
+                    <button type="button" id="close-camera-btn" class="btn secondary-btn">Hủy</button>
+                </div>
+            </div>
+
+            <div class="preview-container hidden" id="preview-container">
+              <img id="preview-img" alt="Preview" />
+              <button type="button" id="remove-img-btn" class="btn-remove" title="Xóa ảnh">
+                <i class="ri-close-line"></i>
+              </button>
+            </div>
+          </div>
+
+          <button type="submit" class="btn primary-btn full-width" id="submit-btn">
+            <i class="ri-magic-line"></i> Phân tích ngay
+          </button>
+        </form>
+      </section>
+
+      <section class="card result-card">
+        <div class="card-header">
+          <h3><i class="ri-book-open-line"></i> Thông tin chi tiết</h3>
+        </div>
+        <div class="card-body">
+          <p id="status" class="status-text">Kết quả sẽ hiển thị tại đây...</p>
+          <div id="result-text" class="result-content"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 TravelLens AI Project</p>
+    </div>
+  </footer>
+
+  <button class="chat-launcher-btn" id="chat-launcher-btn" type="button">
+    <i class="ri-message-3-line"></i> <span class="chat-label">Chat AI</span>
+  </button>
+
+  <div class="chat-popup hidden" id="chat-popup">
+    <div class="chat-header">
+      <div class="chat-info">
+        <i class="ri-robot-2-line"></i> <span class="chat-name">Trợ lý ảo</span>
+      </div>
+      <button class="chat-close" id="chat-close-btn"><i class="ri-close-line"></i></button>
+    </div>
+    
+    <div class="chat-body">
+      <div id="chat-messages" class="messages-area">
+        <div class="chat-message bot">
+          <div class="bubble">Xin chào! Tôi có thể giúp gì cho bạn?</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-footer">
+      <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="Nhập tin nhắn..." autocomplete="off" />
+        <button type="submit"><i class="ri-send-plane-fill"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

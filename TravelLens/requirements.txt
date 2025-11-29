@@ -1,0 +1,8 @@
+flask
+ultralytics
+pillow
+numpy
+tavily-python
+google-genai
+python-dotenv
+waitress
