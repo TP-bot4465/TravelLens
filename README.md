@@ -67,7 +67,7 @@ TravelLens/
 ## Hướng Dẫn Cài Đặt
 
 Làm theo các bước sau để chạy dự án trên máy cục bộ:
-
+```
 ### 1\. Clone dự án
 
 ```bash
