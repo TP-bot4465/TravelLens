@@ -8,18 +8,18 @@
 
 ##  Tính Năng Nổi Bật
 
-  * ** Nhận diện thông minh (Object Detection):**
+  * **Nhận diện thông minh (Object Detection):**
       * Tích hợp 2 mô hình **YOLOv11** được huấn luyện riêng biệt.
       * Nhận diện chính xác các **món ăn đặc sản Việt Nam** (Phở, Bánh mì, Bún bò...).
       * Nhận diện các **địa điểm du lịch, di tích** nổi tiếng tại TP.HCM (Dinh Độc Lập, Chợ Bến Thành...).
-  * ** Tổng hợp thông tin (AI Context):**
+  * **Tổng hợp thông tin (AI Context):**
       * Sử dụng **Tavily Search API** để tìm kiếm thông tin mới nhất về đối tượng.
       * Sử dụng **Google Gemini 2.5 Flash** để tổng hợp và viết lời giới thiệu hấp dẫn như một hướng dẫn viên du lịch chuyên nghiệp.
-  * ** Đa dạng đầu vào:**
+  * **Đa dạng đầu vào:**
       * Hỗ trợ tải ảnh từ thư viện.
       * Tích hợp Camera chụp ảnh trực tiếp trên trình duyệt.
-  * ** Chatbot AI:** Trợ lý ảo tích hợp sẵn để trả lời mọi câu hỏi về du lịch và ăn uống.
-  * ** Điều hướng:** Tự động liên kết với Google Maps để chỉ đường đến địa điểm nhận diện được.
+  * **Chatbot AI:** Trợ lý ảo tích hợp sẵn để trả lời mọi câu hỏi về du lịch và ăn uống.
+  * **Điều hướng:** Tự động liên kết với Google Maps để chỉ đường đến địa điểm nhận diện được.
 
 -----
 
