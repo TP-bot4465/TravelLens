@@ -1,12 +1,10 @@
 # 📸 TravelLens - Trợ Lý Du Lịch AI Việt Nam
 
-   
-
 **TravelLens** là một ứng dụng web thông minh giúp khách du lịch khám phá văn hóa và ẩm thực Việt Nam thông qua hình ảnh. Ứng dụng kết hợp sức mạnh của **Thị giác máy tính (Computer Vision)** để nhận diện đối tượng và **AI tạo sinh (Generative AI)** để cung cấp thông tin ngữ cảnh phong phú theo thời gian thực.
 
 -----
 
-##  Tính Năng Nổi Bật
+## 🌟 Tính Năng Nổi Bật
 
   * **Nhận diện thông minh (Object Detection):**
       * Tích hợp 2 mô hình **YOLOv11** được huấn luyện riêng biệt.
@@ -23,26 +21,26 @@
 
 -----
 
-##  Công Nghệ Sử Dụng
+## 🛠️ Công Nghệ Sử Dụng
 
 ### Backend
 
-  * **Ngôn ngữ:** Python 3.x
-  * **Framework:** Flask
-  * **Computer Vision:** [Ultralytics YOLOv11](https://github.com/ultralytics/ultralytics)
+  * **Ngôn ngữ:**  Python 3.x
+  * **Framework:**  Flask
+  * **Computer Vision:**  [Ultralytics YOLOv11](https://github.com/ultralytics/ultralytics)
   * **LLM & Search:**
-      * Google Gemini API (Generative AI)
-      * Tavily API (AI Search Engine)
+      *  Google Gemini API (Generative AI)
+      *  Tavily API (AI Search Engine)
 
 ### Frontend
 
-  * **Giao diện:** HTML5, CSS3 (Responsive Design).
-  * **Logic:** JavaScript (Vanilla JS) xử lý Camera stream và AJAX request.
+  * **Giao diện:**   (Responsive Design).
+  * **Logic:**  (Vanilla JS) xử lý Camera stream và AJAX request.
   * **Design:** Phong cách hiện đại, clean UI.
 
 -----
 
-##  Cấu Trúc Dự Án
+## 📂 Cấu Trúc Dự Án
 
 ```bash
 TravelLens/
@@ -64,7 +62,7 @@ TravelLens/
 
 -----
 
-##  Hướng Dẫn Cài Đặt
+## ⚙️ Hướng Dẫn Cài Đặt
 
 Làm theo các bước sau để chạy dự án trên máy cục bộ:
 
@@ -122,26 +120,23 @@ Mở trình duyệt và truy cập: `http://localhost:5000`
 
 -----
 
-
-##  Demo
+## 🖥️ Demo
 
 **Trang chủ**
-<img width="1887" height="900" alt="image" src="https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77" />
-
+\<img width="1887" height="900" alt="image" src="[https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77](https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77)" /\>
 
 **Nhận dạng món ăn**
-<img width="1264" height="650" alt="image" src="https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef" />
+\<img width="1264" height="650" alt="image" src="[https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef](https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef)" /\>
 
 **Nhận dạng địa điểm**
-<img width="1257" height="640" alt="image" src="https://github.com/user-attachments/assets/c3767811-f50f-4caf-b80f-e2e1f4c31412" />
+\<img width="1257" height="640" alt="image" src="[https://github.com/user-attachments/assets/c3767811-f50f-4caf-b80f-e2e1f4c31412](https://github.com/user-attachments/assets/c3767811-f50f-4caf-b80f-e2e1f4c31412)" /\>
 
 **Chatbot**
-<img width="1882" height="883" alt="image" src="https://github.com/user-attachments/assets/157c2284-fe7a-42da-be2b-c33abfc5e6a9" />
-
+\<img width="1882" height="883" alt="image" src="[https://github.com/user-attachments/assets/157c2284-fe7a-42da-be2b-c33abfc5e6a9](https://github.com/user-attachments/assets/157c2284-fe7a-42da-be2b-c33abfc5e6a9)" /\>
 
 -----
 
-##  Đóng Góp (Contributing)
+## 🤝 Đóng Góp (Contributing)
 
 Mọi đóng góp để cải thiện dự án đều được hoan nghênh.
 
@@ -151,10 +146,3 @@ Mọi đóng góp để cải thiện dự án đều được hoan nghênh.
 4.  Push lên Branch (`git push origin feature/NewFeature`).
 5.  Tạo Pull Request.
 
-
------
-
-### Liên Hệ
-
-  * **Tác giả:** Phong
-  * **Lĩnh vực:** Khoa học máy tính (Data & AI)
