@@ -9,24 +9,24 @@
 
 ---
 
-## 🌟 Tính Năng Nổi Bật
+## Tính Năng Nổi Bật
 
-* **🔭 Nhận diện thông minh (Object Detection):**
+* **Nhận diện thông minh (Object Detection):**
     * Tích hợp 2 mô hình **YOLOv11** được huấn luyện riêng biệt.
     * Nhận diện chính xác các **món ăn đặc sản Việt Nam** (Phở, Bánh mì, Bún bò...).
     * Nhận diện các **địa điểm du lịch, di tích** nổi tiếng tại TP.HCM (Dinh Độc Lập, Chợ Bến Thành...).
-* **🧠 Tổng hợp thông tin (AI Context):**
+* **Tổng hợp thông tin (AI Context):**
     * Sử dụng **Tavily Search API** để tìm kiếm thông tin mới nhất về đối tượng.
     * Sử dụng **Google Gemini 2.5 Flash** để tổng hợp và viết lời giới thiệu hấp dẫn như một hướng dẫn viên du lịch chuyên nghiệp.
-* **📷 Đa dạng đầu vào:**
+* **Đa dạng đầu vào:**
     * Hỗ trợ tải ảnh từ thư viện.
     * Tích hợp Camera chụp ảnh trực tiếp trên trình duyệt.
-* **💬 Chatbot AI:** Trợ lý ảo tích hợp sẵn để trả lời mọi câu hỏi về du lịch và ăn uống.
-* **🗺️ Điều hướng:** Tự động liên kết với Google Maps để chỉ đường đến địa điểm nhận diện được.
+* **Chatbot AI:** Trợ lý ảo tích hợp sẵn để trả lời mọi câu hỏi về du lịch và ăn uống.
+* **Điều hướng:** Tự động liên kết với Google Maps để chỉ đường đến địa điểm nhận diện được.
 
 ---
 
-## 🛠️ Công Nghệ Sử Dụng
+## Công Nghệ Sử Dụng
 
 ### Backend
 
@@ -64,7 +64,7 @@ TravelLens/
 ├── requirements.txt     # Danh sách thư viện phụ thuộc
 └── README.md            # Tài liệu dự án
 
-## ⚙️ Hướng Dẫn Cài Đặt
+## Hướng Dẫn Cài Đặt
 
 Làm theo các bước sau để chạy dự án trên máy cục bộ:
 
@@ -122,23 +122,23 @@ Mở trình duyệt và truy cập: `http://localhost:5000`
 
 -----
 
-## 📸 Demo
+## Demo
 
 **Trang chủ**
-\<img width="1887" height="900" alt="Giao diện trang chủ" src="https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77" /\>
+<img width="1887" height="900" alt="image" src="https://github.com/user-attachments/assets/8d5ddef7-5a07-4346-927d-92774be6fd77" />
 
 **Nhận dạng món ăn**
-\<img width="1264" height="650" alt="Nhận diện món ăn" src="https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef" /\>
+<img width="1264" height="650" alt="Nhận diện món ăn" src="https://github.com/user-attachments/assets/747ec42a-4c19-40e2-ae54-c55b352c15ef" />
 
 **Nhận dạng địa điểm**
-\<img width="1257" height="640" alt="Nhận diện địa điểm" src="https://github.com/user-attachments/assets/c3767811-f50f-4caf-b80f-e2e1f4c31412" /\>
+<img width="1257" height="640" alt="Nhận diện địa điểm" src="https://github.com/user-attachments/assets/c3767811-f50f-4caf-b80f-e2e1f4c31412" />
 
 **Chatbot**
-\<img width="1882" height="883" alt="Giao diện Chatbot" src="https://github.com/user-attachments/assets/157c2284-fe7a-42da-be2b-c33abfc5e6a9" /\>
+<img width="1882" height="883" alt="Giao diện Chatbot" src="https://github.com/user-attachments/assets/157c2284-fe7a-42da-be2b-c33abfc5e6a9" />
 
 -----
 
-## 🤝 Đóng Góp (Contributing)
+## Đóng Góp (Contributing)
 
 Mọi đóng góp để cải thiện dự án đều được hoan nghênh.
 
@@ -150,12 +150,7 @@ Mọi đóng góp để cải thiện dự án đều được hoan nghênh.
 
 -----
 
-### 📬 Liên Hệ
 
-  * **Tác giả:** Phong
-  * **Lĩnh vực:** Khoa học máy tính (Data & AI)
-
-<!-- end list -->
 
 ```
 ```
