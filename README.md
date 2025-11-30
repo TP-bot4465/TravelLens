@@ -63,9 +63,9 @@ TravelLens/
 ├── app.py               # Flask Server & Logic xử lý chính
 ├── requirements.txt     # Danh sách thư viện phụ thuộc
 └── README.md            # Tài liệu dự án
-
-## Hướng Dẫn Cài Đặt
 ```
+## Hướng Dẫn Cài Đặt
+
 Làm theo các bước sau để chạy dự án trên máy cục bộ:
 
 ### 1\. Clone dự án
